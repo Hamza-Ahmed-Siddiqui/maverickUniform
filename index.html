@@ -1,0 +1,455 @@
+<!-- =============responsive containers=========================== -->
+<!-- <div class="container-sm">100% wide until small breakpoint</div> -->
+<!-- <div class="container-md">100% wide until medium breakpoint</div> -->
+<!-- <div class="container-lg">100% wide until large breakpoint</div> -->
+<!-- <div class="container-xl">100% wide until extra large breakpoint</div> -->
+<!-- <div class="container-xxl">100% wide until extra extra large breakpoint</div> -->
+<!-- =============responsive containers=========================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maverick dresses</title>
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style1.css">
+   
+    <style> /* width */
+      ::-webkit-scrollbar {
+        width: 16px;
+
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #e6ffff54; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #609092c3;  border-radius: 2px;      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background:#609092e8; 
+      }</style>
+</head>
+<body>
+    <!-- ==================loader=================== -->
+    <!-- <div class="d-flex justify-content-center" >
+        <div class="spinner-border" id="load" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div> -->
+    <!-- ==================loader=================== -->
+
+<!-- ===============================navbar================== -->
+<!-- ======================= ===============================navbar================== -->
+<div class="boxshad">   
+  <div class="top">
+          <img src="img/logo2.png"  id="img1" alt="loading" >
+     
+          <!-- <div id="line1" style=" margin-top: 2px; width: 270px; height: 1px; background-color: rgb(106, 146, 149);"></div>
+     
+      <div  id="line2" style=" margin-top: 4px; width: 277px; height: 2px; background-color: rgb(106, 146, 149);"></div> -->
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light nev1 ">
+        <div class="container-fluid " >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse topnav" id="navbarTogglerDemo01">
+            <!-- <a class="navbar-brand" href="#">Hidden brand</a> -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 bttnmn">
+              <button class="nav-item bttn" id="hom">
+                <a class="nav-link active" id="home"  aria-current="page" href="index.html">Home</a><i class="fa-solid fa-house home-icon"></i>
+              </button>
+              <button class="nav-item bttn " id="cloth">
+                <a class="nav-link bttncol" id="clothing"  href="#">Products</a><i class="fa-solid fa-shirt clothing-icon"></i>
+              <ul class="dropdown-menu drepmain">
+                <li id="drep2"><a class="dropdown-item drep"  href="#">Shirts <i class="fa-solid fa-chevron-right arrow1"></i></a>
+                <ul class="inneropt">
+                  <li class="opt1" ><a class="opt2" href="shirtsg.html" style=" color: rgb(70, 91, 86); text-decoration: none; list-style: none;">Girls <i class="fa-solid fa-chevron-right arrow1"></i></a></li>
+                  <li class="opt1"><a class="opt2" href="shirts.html" style=" color: rgb(70, 91, 86); text-decoration: none; list-style: none;">Boys <i class="fa-solid fa-chevron-right arrow1"></i></a></li>
+  
+                </ul>
+                </li>
+                <li><a class="dropdown-item drep" href="skirt.html">Skirts </a></li>
+                <li><a class="dropdown-item drep" href="frock.html">Frocks </a></li>
+                <li><a class="dropdown-item drep" href="p.tshirt.html">P.T T-Shirts </a></li>
+                <li><a class="dropdown-item drep" href="p.tshort.html">P.T Shorts </a></li>
+                <li><a class="dropdown-item drep" href="p.tpants.html">P.T Tracks pants </a></li>
+                <li><a class="dropdown-item drep" href="logo.html">logos </a></li>
+                <li><a class="dropdown-item drep" href="belt.html">Belts </a></li>
+                <li><a class="dropdown-item drep" href="ties.html">Ties </a></li>
+                <li><a class="dropdown-item drep" href="socks.html">Socks </a></li> 
+              </ul>
+  
+              </button>
+              <button class="nav-item bttn" id="abt">
+                <a class="nav-link " id="about"  href="about.html" tabindex="-1" aria-disabled="true">About us</a><i class="fa-solid fa-user about-icon"></i>
+              </button>
+              <button class="nav-item bttn" id="cont">
+                <a class="nav-link " id="contact"  href="contact.html" tabindex="-1" aria-disabled="true">Contact us</a><i class="fa-solid fa-phone contact-icon"></i>
+              </button>
+              <button class="nav-item bttn" id="gal">
+                <a class="nav-link " id="gallery"  href="#" tabindex="-1" aria-disabled="true">Gallery</a><i class="fa-solid fa-images gallery-icon"></i>
+                <ul class="drepmain2"> 
+              
+                <li class="dreps"><a href="#" class="dreps2"> shirts</a></li>
+                <li class="dreps"><a href="#" class="dreps2"> skirts</a></li>
+                <li class="dreps"><a href="#" class="dreps2"> p.t clothing</a></li>
+              
+              
+               </ul>
+              </button>
+              
+            </ul>
+            <form class="d-flex for" >
+              <input class="form-control me-2 for2" id="for2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success for3 " id="search3" type="submit"><img src="img/search-icon3.webp" width="25px" style=" transform: rotate(13deg); border-radius: 10px; background-color:rgba(106, 146, 149, 0);  margin-top: -1px ;margin-right: -2px; opacity: 0.9;" />    Search  </button>
+            </form>
+            <button class="iconbttn"><i class="fa-brands fa-instagram insta-icon"></i></button><button class="iconbttn"><i class="fa-brands fa-facebook facebook-icon"></i></button>
+            <button class="iconbttn"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></button>  
+          
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- ===================================navbar======================================== -->
+    <!-- ===========carousel=========================== -->
+ 
+<div class="background">
+<div class="parallaxx"> 
+  
+</div>
+  <div class="backbox1"><h5 style="  font-family: 'Pacifico', cursive; font-size: 30px; text-transform: capitalize; text-align: center; position: relative; top: 40px; color:rgba(41, 62, 59, 0.949)">quality schoolwear</h4>
+    <br>
+    <br>
+    <h1 style="  font-family: 'Pacifico', cursive; border-bottom: 4px dotted  #375c5a ;color: #4f7e7c; width: 320px; height: 120px; text-transform: capitalize; text-align: center; margin-left: 70px; margin-right: 20px; position: relative; top: 40px;">ready to go back to school?</h1>
+<br>
+<br>
+<p style=" width:300px; height: 80px; font-size: 20px; margin-top: 20px; margin-left: 70px; color: rgb(29, 68, 80); font-family:'Times New Roman', Times, serif;">Comfy, quality school uniforms and schoolwear at affordable prices </p>
+
+
+ 
+
+  </div>
+</div>
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+  
+<!-- ====================================cards1============================ -->
+
+<!-- <div class="container1">
+<div class="box1"> </div>
+<div class="inbox1"><dd class="boxtext" >School Uniform Provides a More Professional Look and Atttitude Towards School</dd></div> -->
+
+<!-- <div class="inbox2"><dd class="boxtext" >Our uniform is part of our school identity, uniting our students, and we hope that they take pride in wearing it. </dd></div>
+<div class="box2"><div style="background-color: black; opacity: 0.6 ; overflow: hidden; height: 350px; width: 100%; "></div> </div>
+<div class="box3"><div style="background-color: black; opacity: 0.6 ; overflow: hidden; height: 350px; width: 100%; "></div> </div>
+<div class="inbox3"><dd class="boxtext" >It is always an honor to put on a uniform </dd></div> -->
+<!-- </div> -->
+<!-- <h1 style="text-transform: uppercase; text-align: center ; text-decoration: 3px underline rgb(54, 81, 82); font-weight: 500; margin-bottom: 10px; letter-spacing: 10px ; font-family: 'PT Sans Narrow', sans-serif; ">CATEGORIES</h1>
+<br>
+<br> -->
+<div data-aos="fade-down" data-aos-easing="linear"
+ data-aos-duration="1290" class="mainhd" style=" margin-left: 38% !important; width: 350px !important;"><h1 class="heading1" style=" text-transform: uppercase !important; font-size:35px; color: rgb(39, 64, 65); ">Categories</h1></div>
+ 
+
+<!-- <p   class="boxtext4">CATEGORIES</p> -->
+
+<div data-aos="fade-down" data-aos-easing="linear"
+data-aos-duration="1190" class="container1">
+
+<a href="shopgirls.html"><div class="box1" style="margin-left: 40px; margin-right: 40px; margin-top:60px;">
+  <p class="boxtext"> Shop By Girls</p>
+  <p class="boxtext2">GIRLS</p>
+
+   <img src="img/shopgirl.jfif" class="imgbox1" alt="">
+  
+</div></a>
+
+<a href="shopboys.html"><div class="box1" style="margin-left: 40px; margin-right: 40px; margin-top: 60px;">
+  <p class="boxtext">Shop By Boys</p>
+  <p class="boxtext2">BOYS</p>
+   <img src="img/shopboy.png" class="imgbox1" alt="">
+
+</div></a>
+<a href="shopkids.html"><div class="box1" style="margin-left: 40px; margin-right: 40px; margin-top: 60px;">
+  <p class="boxtext">Shop By Kids</p>
+  <p class="boxtext2">KIDS</p>
+   <img src="img/shopkids.webp" class="imgbox1" alt="">
+
+</div>
+<br>
+<br>
+</div></a>
+<br>
+<br>
+
+<!-- ====================================cards1============================ -->
+  <!-- <p data-aos="fade-down" data-aos-easing="linear"
+  data-aos-duration="1290" class="boxtext3">Recommended For You</p> -->
+ <div data-aos="fade-down" data-aos-easing="linear"
+ data-aos-duration="1290" class="mainhd" style="width: 550px !important;"><h1 class="heading1" style=" font-size:35px; color: rgb(39, 64, 65); ">Recommended For You</h1></div>
+ 
+<div data-aos="fade-up" data-aos-easing="linear"
+data-aos-duration="1190" class="maincar">
+
+  <div data-aos="fade-up"   data-aos-easing="linear"
+  data-aos-duration="1290"class="card " id="car" style="width: 22rem; margin-top: 60px;   ">
+    <img src="img/shirtb1.jpg" class=" carimg" style=" width: 250px !important; height: 325px !important; margin-top: 5px  !important; margin-left: 5px !important;" alt="...">
+    <h1 style=" display:flex; flex-wrap:nowrap;">
+      <button type="button" class="btn bttnhov " id="heartbttn1" style="position: relative !important; top: -90px !important; " ><i class="fa-solid fa-heart heart" id="heartbtn1"></i></button>
+      <a href="login.html"><button type="button" class="btn bttnhov " style="position: relative !important; top: -90px !important; " ><i class="fa-solid fa-cart-shopping cart"></i></button></a>
+      <a href="homepages/home1.html"><button type="button" class="btn bttnhov " style="position: relative !important; top: -90px !important; " ><i class="fa-solid fa-ellipsis-vertical dots"></i></button></a>
+    </h1>
+    <div class="card-body cartext" style=" margin-top:-70px !important; background-color:  rgba(105, 155, 157, 0);">
+      
+      <p class="card-text text"  style="text-transform: capitalize; font-size: 18px; font-family: 'Times New Roman', Times, serif; font-weight: 500; color: rgb(25, 40, 41);"> gray shirt with striped tie </p>
+ <div class="box2"><h1 class="hd3" id="mainprice1"  >rs 2000</h1><strike class="hd3" id="strike" style="color: gray; position: relative; top: -5px ; margin-left: 10px; font-size: 13px; letter-spacing: 3px;">rs 2499</strike></div>
+     
+    </div>
+    
+  </div>
+ 
+
+  <div  data-aos="fade-up"   data-aos-easing="linear"
+  data-aos-duration="500"class="card " class="card " id="car" style="width: 22rem; margin-top: 60px; ">
+    <img src="img/shirtg9.jpg" class=" carimg"  style=" width: 250px !important; height: 325px !important; margin-top: 5px  !important; margin-left: 5px !important;"alt="...">
+    <h1 style=" display:flex; flex-wrap:nowrap;">
+      <button type="button" class="btn bttnhov "  style="position: relative !important; top: -90px !important; "  id="heartbttn2"><i class="fa-solid fa-heart heart" id="heartbtn2" ></i></button>
+      <a href="login.html"><button type="button"style="position: relative !important; top: -90px !important; "  class="btn bttnhov "><i class="fa-solid fa-cart-shopping cart"></i></button></a>
+      <a href="homepages/home2.html"><button type="button" class="btn bttnhov " style="position: relative !important; top: -90px !important; " ><i class="fa-solid fa-ellipsis-vertical dots"></i></button></a>
+    </h1> 
+    <div class="card-body cartext" style=" margin-top:-70px !important;background-color:  rgba(105, 155, 157, 0);">
+      
+    <p class="card-text text" style="text-transform: capitalize;font-size: 18px; font-family: 'Times New Roman', Times, serif; font-weight: 500; color: rgb(25, 40, 41);">a white shirt with blue V </p>
+ <div class="box2"><h1 class="hd3" id="mainprice1"  >rs 2200</h1><strike class="hd3" id="strike" style="color: gray; position: relative; top: -10px ; margin-left: 10px; font-size: 13px; letter-spacing: 3px;">rs 2599</strike></div>
+     
+  </div>
+  </div>
+  <div data-aos="fade-up"   data-aos-easing="linear"
+  data-aos-duration="500" class="card " id="car" style="width: 22rem; margin-top: 60px; ">
+    <img src="img/shirtk1.jpg" class=" carimg"style=" width: 250px !important; height: 325px !important; margin-top: 5px  !important; margin-left: 5px !important;" alt="...">
+    <h1 style=" display:flex; flex-wrap:nowrap;">
+      <button type="button" class="btn bttnhov " style="position: relative !important; top: -90px !important; "  id="heartbttn3"><i class="fa-solid fa-heart heart" id="heartbtn3"></i></button>
+      <a href="login.html"><button type="button" style="position: relative !important; top: -90px !important; "  class="btn bttnhov "><i class="fa-solid fa-cart-shopping cart"></i></button></a>
+      <a href="homepages/home3.html"><button type="button" style="position: relative !important; top: -90px !important; "  class="btn bttnhov "><i class="fa-solid fa-ellipsis-vertical dots"></i></button></a>
+    </h1>
+    <div class="card-body cartext" style=" margin-top:-70px !important; background-color:  rgba(105, 155, 157, 0);">
+      <p class="card-text text" style="text-transform: capitalize; font-size: 18px; font-family: 'Times New Roman', Times, serif; font-weight: 500; color: rgb(25, 40, 41);">
+        orange shirt with navy blue pants . </p>
+ <div class="box2"><h1 class="hd3" id="mainprice1"  >rs 1200</h1><strike class="hd3" id="strike" style=" letter-spacing: 3px; color: gray; position: relative; top: -11px ; margin-left: 10px; font-size: 13px; letter-spacing: 3px;">rs 1399</strike></div>
+        
+    </div>
+  </div>
+  <div data-aos="fade-up"  data-aos-easing="linear"
+  data-aos-duration="1290" class="card " id="car" style="width: 22rem; margin-top: 60px; ">
+    <img src="img/shirtk2.jpg" class=" carimg" style=" width: 250px !important; height: 325px !important; margin-top: 5px  !important; margin-left: 5px !important;" alt="...">
+    <h1 style=" display:flex; flex-wrap:nowrap;">
+      <button type="button" class="btn bttnhov " style="position: relative !important; top: -90px !important; "  id="heartbttn4"><i class="fa-solid fa-heart heart" id="heartbtn4"></i></button>
+      <a href="login.html"></a><button type="button" style="position: relative !important; top: -90px !important; "  class="btn bttnhov "><i class="fa-solid fa-cart-shopping cart"></i></button></a>
+      <a href="homepages/home4.html"><button type="button" style="position: relative !important; top: -90px !important; "  class="btn bttnhov "><i class="fa-solid fa-ellipsis-vertical dots"></i></button></a>
+    </h1>
+    <div class="card-body cartext" style=" margin-top:-70px !important; background-color:  rgba(105, 155, 157, 0);" >
+      <p class="card-text text"  style="text-transform: capitalize; font-size: 18px; font-family: 'Times New Roman', Times, serif; font-weight: 500; color: rgb(25, 40, 41);"> white shirt with brown pants & tie </p>
+ <div class="box2"><h1 class="hd3" id="mainprice1"  >rs 1200 </h1><strike class="hd3" id="strike" style="color: gray; position: relative; top: -5px ; margin-left: 10px; font-size: 13px; letter-spacing: 3px;">rs 1399</strike></div>
+      
+    </div>
+  </div>
+  
+</div>
+<br>
+<br>
+<!-- ==================================carousel=========================== -->
+<div class="box" style="z-index: -9999;">
+    
+ 
+
+
+  <div class="boxs1" >
+    <div class="boxs1parallax">
+    <h1 class="hd1" style="font-size: 32px; text-align: left; margin-top: 140px; position: relative; z-index: 9999; margin-left: 60px; display: inline-block; color: white; font-family: 'Times New Roman', Times, serif; font-weight: 800;">Value Without Compromising Quality.</h1>
+    <dd class="para1" style="font-size: 20px; text-align: center;  margin-top: 40px;  margin-left: 10px; display: inline-block; color: white; font-family: 'Times New Roman', Times, serif; "> We supply high-quality and ethically sourced products 
+      while constantly driving the maintenance of value-for-money for you and our customers.</dd>
+    </div>
+    </div>
+
+    <div class="boxs2">
+    <div class="boxs2parallax">
+    <h1 class="hd1" style="font-size: 36px; text-align: left; margin-top: 140px; position: relative; z-index: 9999; margin-left: 100px; display: inline-block; color: black; font-family: 'Times New Roman', Times, serif; font-weight: 800;">Pride In Uniting Our Students.</h1>
+
+      <dd class="para1" style="font-weight: 600; font-size: 20px; text-align: center; margin-right: 30px;  margin-top: 40px;  margin-left: 30px; display: inline-block; color: black; font-family: 'Times New Roman', Times, serif; ">  
+        Our uniform is part of our school identity, uniting our students, and we hope that they take pride in wearing it.</dd>
+
+    </div>
+    </div>
+
+
+  </div>
+  <!-- =====================================carousel cards=========================== -->
+  
+  <!-- =====================================carousel cards=========================== -->
+  <!-- <div class="picturebox">
+    <div id="pbox1" class="pbox" ></div>
+    <div id="pbox2" class="pbox" ></div>
+    <div id="pbox3" class="pbox" ></div>
+    <div id="pbox4" class="pbox" ></div>
+    <div id="pbox5" class="pbox" ></div>
+
+  </div> -->
+  <!-- =================================slide1======================= -->
+  <!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active carslid" data-bs-interval="10000">
+        
+        <div class="card car" style="width: 18rem;">
+          <img src="img/back10.jpg" class="d-block w-100" height="350px" alt="...">
+           
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+         <div class="card car" style="width: 18rem;">
+          <img src="img/back11.avif" class="d-block w-100" height="350px" alt="...">
+           
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+        
+         <div class="card car" style="width: 18rem;">
+          <img src="img/back12.webp" class="d-block w-100" height="350px" alt="...">
+           
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+      </div> -->
+  <!-- =================================slide1======================= -->
+  <!-- =================================slide2======================= -->
+
+      <!-- <div class="carousel-item carslid" data-bs-interval="2000">
+       
+         
+         <div class="card car" style="width: 23rem;">
+          <img src="img/back6.jpg" class="d-block w-100" height="350px" alt="...">
+           
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+         <div class="card car" style="width: 18rem;">
+          <img src="img/back5.jpg" class="d-block w-100" height="350px" alt="...">
+           
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+         <div class="card car" style="width: 18rem;">
+          <img src="img/back4.jpg" class="d-block w-100" height="350px" alt="...">
+           
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+      </div> -->
+  <!-- =================================slide2======================= -->
+  <!-- =================================slide3======================= -->
+
+      <!-- <div class="carousel-item">
+        <div class="card car" style="width: 23rem;">
+          <img src="img/back3.jpeg" class="d-block w-100" alt="...">
+           
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+         <div class="card car" style="width: 23rem;">
+          <img src="img/back2.jpeg" class="d-block w-100" alt="...">
+           
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+         <div class="card car" style="width: 23rem;">
+          <img src="img/back1.jpeg" class="d-block w-100" alt="...">
+           
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+      </div> 
+    </div> -->
+    <!-- ======================================slide3============================== -->
+    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> -->
+   <!-- =======================footer=========================== -->
+<br> 
+<br> 
+<br>
+<br>
+<div class="footer1" style="background-color: #49919161;"> <div class="footer2" style="background-color: #49919100; "><h1 class="hd" style="font-size: 30px !important; margin-top: 40px !important; color: #265555ad;">Maverick dresses</h1><p>Since 2012, Maverick Schoolwear has strived to offer the best value for money, whilst maintaining a high level of quality our 
+  customers have become accustomed too. </p></div>
+ 
+
+
+<div class="footer4">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.660257161133!2d67.05995829999999!3d24.772835200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33cc59df43e0b%3A0xb908073c196ab941!2sSea%20View%20Rd%2C%20Karachi%2C%20Sindh!5e0!3m2!1sen!2s!4v1677787144676!5m2!1sen!2s" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small blue copy">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2025 Copyright:
+    <a href="index.html"> Maverick Dresses</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+</div>
+<!-- Footer -->
+<!-- ==============================footer=========================== -->
+
+
+  
+  
+  
+
+
+    <!-- <div class="topnav"></div> -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+</body>
+<script src="js/jquery-3.6.3.min.js"></script>
+<script src="js/app1.js"></script>
+<script src="js/all.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</html>

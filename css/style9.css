@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Pacifico', cursive; */
+/* font-family: 'PT Sans Narrow', sans-serif; */
+/* font-family: 'Lobster', cursive; */
+body{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(148, 195, 199);
+    /* border-radius:  0% 0% 100% 0%; */
+    background: linear-gradient(-45deg ,transparent 75px , rgb(148, 195, 199) 0 ) bottom left;
+    display: inline-block;
+}
+.nev1{
+    width: 88% !important;
+    height: 5px !important;
+    float: right !important;
+    background-color: rgba(106, 146, 149, 0) !important;
+}
+.bttnmn{
+    float: right !important;
+    text-align: right !important;
+    margin: auto;
+}
+.bttn{
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none !important;
+    background-color: rgba(106, 146, 149, 0);
+
+    /* background-color:   rgb(106, 146, 149) !important; */
+    /* margin-left: 0px; */
+    position: relative;
+    top: -1px;
+    color: white !important;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 14px;
+    margin-left: 1px;
+    /* margin-right: 10px; */
+}
+.bttn:hover{
+    background-color: rgb(106, 146, 149);
+
+}
+.bttncol{
+    color: rgb(70, 91, 86)  !important;
+
+
+    }
+.drepmain{
+    width: 200px;
+    height: 330px;
+background-color: rgb(226, 244, 240) !important;
+    outline: none;
+    border: none;
+    margin-top: 1px;
+    margin-left: -40px;
+display: none;
+}
+.drep{
+    height: 35px;
+    color: rgb(70, 91, 86)  !important;
+text-align: left;
+font-size: 14px;
+}
+/* .dropimg{
+    width: 180px;
+    height: 180px;
+    
+} */
+.inneropt{
+    width: 170px;
+    height: 60px;
+background-color: rgb(226, 244, 240) !important;
+outline: none;
+border: none;
+margin-top: 5px;
+float: right;
+margin-right: -170px;
+text-decoration: none;
+margin-top: -60px;
+position: relative;
+top: 23px;
+color: rgb(70, 91, 86)  !important;
+
+border-radius: 5px;
+display: none;
+}
+.opt1{
+    width: 170px;
+    height: 29px;
+    color: rgb(70, 91, 86)  ;
+    text-align: left;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(70, 91, 86)  ;
+    text-align: left;
+    position: relative;
+    left: -32px;
+border-radius: 5px;
+
+}
+.opt2{
+    width: 200px;
+    height: 29px;
+    color: rgb(70, 91, 86)  ;
+text-align: left;
+font-size: 14px;
+text-decoration: none;
+list-style: none;
+color: rgb(70, 91, 86)  ;
+text-align: left;
+margin-left: 10px;
+/* position: relative;
+left: -20px; */
+}
+.arrow1{
+    font-size: 15px;
+    color: gray;
+    float: right;
+    display: none;
+    margin-top: 5px;
+}
+.drep:hover{
+background-color: rgb(171, 205, 197) !important;
+border-bottom: 0.5px solid rgb(128, 164, 156);
+    
+}
+.drep:hover .arrow1{
+        display: block;
+    }
+    .inneropt:hover{
+        border-bottom: 0.5px solid rgb(128, 164, 156);
+        
+            }
+    .opt1:hover{
+background-color: rgb(171, 205, 197) !important;
+border-bottom: 0.5px solid rgb(128, 164, 156);
+
+    }
+#drep2:hover .inneropt{
+display: block !important;
+
+}
+    .about-icon {
+        position: relative;
+        top: -3;
+        color: rgb(70, 91, 86) !important;
+        margin-left: 1px;
+    font-size: 17px;
+    }
+    .home-icon {
+        position: relative;
+        top: -3;
+        color: rgb(70, 91, 86) !important;
+        font-size: 16px;
+    
+    }
+    .clothing-icon {
+        position: relative;
+        top: -3;
+        color:rgb(70, 91, 86) !important;
+        font-size: 16px;
+
+    }
+    
+    .contact-icon {
+        position: relative;
+        top: -3;
+        color:rgb(70, 91, 86)  !important;
+        font-size: 17px;
+    
+    }
+    #home{
+        color:rgb(70, 91, 86)  !important;
+        display: none;
+        
+    }
+    #about{
+        color:rgb(70, 91, 86)  !important;
+        display: none;
+
+    }
+    #contact{
+        color:rgb(70, 91, 86)  !important;
+        display: none;
+
+    }
+    #clothing{
+        color:rgb(70, 91, 86)  !important;
+        display: none;
+    }
+    #cloth:hover .drepmain{
+        display: block !important;
+        /* position: relative;
+        left: -3px;
+        top: 4px;
+     */
+        }
+.topnav{
+    width: 90% !important;
+    height: 115px;
+    background-color: rgb(106, 146, 149);
+    float: right;
+    margin-right: -12px !important;
+    position: relative !important;
+    z-index: 99999 !important;
+    background: linear-gradient(52deg ,transparent 65px , rgba(106, 146, 149, 0.875) 0 ) bottom left;
+}
+.boxshad{
+    height: 65px;
+box-shadow:  0px 2px 12px rgb(106, 146, 149);
+
+}
+#img1{
+    width:160px;
+    margin-top: 3px;
+    margin-left: 22px;
+    transform: rotate(6deg);
+}
+.span1{
+    width: 900px;
+    height: 200px;
+    background-color: rgb(148, 195, 199);
+transform: -45deg;
+    position: relative;
+    left: 200px;
+}
+.for{
+    display: block;
+    float: right !important;
+    margin-right: 30px !important;
+color:rgb(101, 140, 143);
+
+}
+.for2{
+    width: 200px;
+    height: 30px;
+    color: black;
+    float: right !important;
+    justify-content: end;
+margin-top: 6px !important;
+border-radius: 20px !important;
+background-color: rgba(101, 140, 143, 0);
+color: rgb(204,224,220);
+display: none;
+margin-top: 40px;
+
+} 
+
+.for3{ 
+    width: 110px !important; ;
+    height: 30px !important;
+font-size: 15px !important;
+margin-left: 20px !important;
+margin-top: 46px !important;
+margin-right: -35px !important;
+border: 1px solid rgba(101, 140, 143, 0);
+color: rgb(51, 82, 77);
+border-radius: 40px !important;
+border: none;
+outline: none;
+font-size: 18px !important;
+font-weight: 500;
+font-family: 'Times New Roman', Times, serif;
+background-color:rgba(106, 146, 149, 0) !important;
+}
+.for2:focus {
+    outline: 1px solid rgb(67, 95, 90) !important ;
+border: 3px solid rgb(204,224,220) !important;
+color: rgb(67, 95, 90) !important;
+    background-color:rgba(106, 146, 149, 0);
+
+}
+.for3:focus{
+    color: rgb(67, 95, 90) !important;
+    background-color:rgba(106, 146, 149, 0) !important;
+
+    }
+.for3:hover{
+    background-color:rgba(106, 146, 149, 0) !important;
+
+    color: rgb(67,95,90);
+border: none;
+outline: none;
+}
+
+.insta-icon{
+    font-size: 17px;
+    color: rgb(67,95,90);
+    float: right;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.facebook-icon{
+    font-size: 17px;
+    color: rgb(67,95,90);
+    float: right;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.whatsapp-icon{
+    font-size: 17px;
+    color: rgb(67,95,90);
+    float: right;
+    margin-left: 2px;
+    /* margin-right:16px; */
+    margin-top: 2px;
+}
+.iconbttn{
+    border: none;
+    outline: none;
+    height: 25px;
+    background-color:rgba(106, 146, 149, 0) !important;
+    margin-right: 1px;
+    border-radius: 25px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 9999;
+}
+.iconbttn:hover{
+    background-color:rgba(106, 146, 149, 0) !important;
+
+}
+.box{
+    width: 80% !important;
+    height: 570px !important;
+   background-color: rgba(171, 205, 197, 0.842) !important;
+}
+.subbttn{
+    width: 450px !important;
+    height: 40px !important;
+    background-color: rgb(106, 146, 149) !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 3px !important;
+    color: white !important;
+    letter-spacing: 1px !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    margin-top: -340px !important;
+}
+.subbttn1{
+    width: 140% !important;
+    height: 40px !important;
+    background-color: rgb(106, 146, 149) !important;
+    outline: none !important;
+    border: none !important;
+    border-radius: 3px !important;
+    color: white !important;
+    letter-spacing: 3px !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+font-family: 'PT Sans Narrow', sans-serif !important; 
+
+}
+.inp{
+    width: 100% !important;
+    height: 33px !important;
+    outline: none!important;
+    border: none!important;
+    border-bottom: 1px solid rgb(51, 82, 77) !important;
+    border-radius: 1px;
+    margin-left: 20px !important;
+    
+    background-color: rgba(171, 205, 197, 0) !important;
+}
+.inp:focus{
+    box-shadow: 0px !important;
+    outline: none;
+    border: none !important;
+    border-bottom: 1px solid rgb(51, 82, 77) !important;
+
+}
+form{
+}
+
+body{
+  background-image: url(../img/signinback2.webp) !important;
+ background-repeat: no-repeat !important;
+ background-size: cover !important; 
+}
+
+
+
+
+
+
+
+/* ====================================registration======================== */
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    overflow: visible !important;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+    overflow: visible !important;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+    }

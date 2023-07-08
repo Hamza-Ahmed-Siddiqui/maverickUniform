@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Pacifico', cursive; */
+/* font-family: 'PT Sans Narrow', sans-serif; */
+/* font-family: 'Lobster', cursive; */
+body{
+    height: 690px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( 34deg , transparent 0px, white ,#49919161  ) ;
+    background-repeat: no-repeat;
+  
+   /* background-image: url(../img/tiny\ flowers\ white.jpg); */
+   opacity: 0.9;
+    /* background-color: papayawhip; */
+}
+
+.container1{
+   
+}
+.close{
+    font-size: 29px;
+    color: gray;
+    margin-left: 40px;
+    margin-top: 30px ;
+}
+.hd1{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(38, 64, 65);
+    margin-top: 200px;
+}
+.hd2{
+    font-size: 30px;
+    text-align: center;
+    color: rgba(38, 64, 65, 0.76);
+    letter-spacing: 5px ;
+}

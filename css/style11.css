@@ -1,0 +1,12 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.nev1{
+    width: 100%;
+    height: 80px;
+/* background: linear-gradient(32deg ,transparent 82px ,  #a7d2cb , #86c8bc, #c98474 ,#874c62 ) ; */
+
+    background: linear-gradient(32deg ,transparent 25px ,#f3ecb8, #f5cab3 , #a8d3da, #b590ca) ;
+}
